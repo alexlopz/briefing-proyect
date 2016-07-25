@@ -21,7 +21,7 @@ footer {
   border-color: #929292 !important;
   color: white !important;
 }
-footer .collapse{
+footer .footer{
   padding: 0 40px !important;
 }
 footer li{
@@ -32,6 +32,10 @@ footer a{
   color: white !important;
   font-size: 14px !important;
   text-decoration: none !important;
+}
+
+#contenedor, #content{
+  display: none;
 }
 
 #section-section1 {
@@ -70,9 +74,17 @@ right: 20px;
   left: 50%;
   position: absolute;
 }
-.navbar-toggle:hover {
-    background-color: #5f6569 !important;
+.navbar-toggle {
+  background-color: #929292 !important;
+  border-color: #929292 !important;
+  border-radius: 16px !important;
   }
+.navbar-toggle:hover {
+    background-color: none !important;
+  }
+.navbar-collapse{
+  border-color: #929292 !important;
+}
 .row{
   margin-left: 0px;
   margin-right: 0px;

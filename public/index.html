@@ -18,13 +18,33 @@
          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
        <![endif]-->
 
+       <style media="screen">
+       #preloader {
+         position: fixed;
+         top:0; left:0;
+         right:0; bottom:0;
+         background: #5354fa;
+         z-index: 100;
+       }
+       #loader {
+         width: 100%;
+         height: 100%;
+         position: absolute;
+         /*left:50%; top:50%;*/
+         background: url(img/loader.gif) no-repeat center 0;
+         margin:50px 0px 0px 0px;
+       }
+       </style>
+
 </head>
-<body>
-
+<body id="loading">
+  <div id="preloader">
+      <div id="loader">&nbsp;</div>
+  </div>
   <header data-role="header" id="header"></header>
-
-  <div class="horizon-prev arrow"><img src="img/icon/back.svg" alt="" /></div>
-  <div class="horizon-next arrow"><img src="img/icon/next.svg" alt="" /></div>
+<div id=contenedor>
+  <!-- <div class="horizon-prev arrow"><img src="img/icon/back.svg" alt="" /></div>
+  <div class="horizon-next arrow"><img src="img/icon/next.svg" alt="" /></div> -->
 
   <section data-role="section" id="section-section1"></section>
   <section data-role="section" id="section-section2"></section>
@@ -46,21 +66,22 @@
 
 
     <!-- menu normal -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <div class="footer collapse navbar-collapse" id="bs-example-navbar-collapse-1">
          <ul class="nav navbar-nav navbar-left">
-           <li class=""><a href="/informacion.html">INFORMACION</a></li>
+           <li class=""><a href="/informacion.html">INFORMACIÓN</a></li>
            <li class=""><a href="#">CANDIDATO</a></li>
          </ul>
          <ul class="nav navbar-nav navbar-right">
-           <li class=""><a href="#">GALERIA</a></li>
-           <li class=""><a href="#">CREDITOS</a></li>
+           <li class=""><a href="/index.html">GALERÍA</a></li>
+           <li class=""><a href="#">CRÉDITOS</a></li>
          </ul>
        </div>
 
     </div>
   </footer>
 
-
+<!-- Desarrollada por Alex Lopez @alexlopez_gt -->
+</div>
 
    <script src="js/main.js">
 
