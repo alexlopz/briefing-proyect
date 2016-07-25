@@ -1,40 +1,73 @@
-
-*{
-  border: 1px solid black;
-}
-.grandes{
-  background-color: gray;
-  height: 50%;
-}
-
-.verticales{
-  background-color: green;
-  height: 40%;
+html, body {
+	width:100%;
+	height:100%;
+	padding:0;
+	margin:0;
+	overflow:hidden;
 }
 
-.pequena{
-  background: yellow;
-  height: 20%;
+section {
+	float:left;
+	display:block;
+	height:100%;
+	padding:0;
+	margin:0;nav
 }
 
-.seven{
-  height:
+footer {
+  background-color: #929292 !important;
+  border-color: #929292 !important;
+  color: white !important;
 }
-#container {
-    background-color:black;
-    width:100%;
-    height:100%;
-    overflow:hidden;
+footer .collapse{
+  padding: 0 40px !important;
+}
+footer li{
+  margin: 0 25px;
+}
+footer a{
 
+  color: white !important;
+  font-size: 14px !important;
+  text-decoration: none !important;
 }
-div {position:fixed;}
 
-.bg {
-  width:100%;
-  height:100%;
-   }
-.row{
-  height: 100%;
-  width: 100%;
-  margin: 0px !important;
+#section-section1 {
+	background:#2c3e50;
 }
+#section-section2 {
+	background:#16a085;
+}
+#section-section3 {
+	background:#27ae60;
+}
+#section-section4 {
+	background:#c0392b;
+}
+
+.arrow img{
+  height: 50px;
+}
+.horizon-prev, .horizon-next {
+position: fixed;
+top: 50%;
+margin-top: -24px;
+z-index: 9999;
+}
+.icon-bar{
+  background-color: white !important;
+}
+.horizon-prev {
+left: 20px;
+}
+.horizon-next {
+right: 20px;
+}
+.navbar-brand {
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+}
+.navbar-toggle:hover {
+    background-color: #5f6569 !important;
+  }
