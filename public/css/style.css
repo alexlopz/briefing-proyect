@@ -13,6 +13,8 @@ section {
 	padding:0;
 	margin:0;nav
 }
+section div{
+}
 
 footer {
   background-color: #929292 !important;
@@ -71,3 +73,7 @@ right: 20px;
 .navbar-toggle:hover {
     background-color: #5f6569 !important;
   }
+.row{
+  margin-left: 0px;
+  margin-right: 0px;
+}
