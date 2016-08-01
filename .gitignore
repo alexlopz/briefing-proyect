@@ -1,1 +1,5 @@
 node_modules
+public/img/galerias/**/*.jpg
+public/img/principal/*.jpg
+
+
