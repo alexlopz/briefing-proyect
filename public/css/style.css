@@ -27,6 +27,9 @@ footer .footer{
 footer li{
   margin: 0 25px;
 }
+/*footer:hover a{
+	text-decoration: underline;
+}*/
 footer a{
 
   color: white !important;
@@ -39,10 +42,10 @@ footer a{
 }
 
 #section-section1 {
-	background:#2c3e50;
+	background:#fff;
 }
 #section-section2 {
-	background:#16a085;
+	background:#fff;
 }
 #section-section3 {
 	background:#27ae60;
@@ -66,7 +69,7 @@ footer a{
 }
 .logos{
   margin: 10px auto;
-  width: 150px;
+  width: 50%;
 
 }
 .horizon-prev, .horizon-next {
@@ -79,7 +82,14 @@ z-index: 9999;
   background-color: white !important;
 }
 .imagenes{
+	padding-left: 0px !important;
+	padding-bottom: 15px !important;
 
+}
+.imagenes-internas{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	padding-top:  15px !important;
 }
 .lg-backdrop{
   background-color: rgba(0, 0, 0, 0.78) !important;
