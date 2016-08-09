@@ -285,7 +285,9 @@ right: 20px;
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
 }
-
+.lg-download{
+	display: none !important;
+}
 .overlay{
   text-align: center !important;
 }
