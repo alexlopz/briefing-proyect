@@ -3,7 +3,7 @@ $(window).load(setTimeout(function () {
 	$('#preloader').fadeOut('slow');
 	$('#loading').css({'overflow':'visible'});
   $('#contenedor').css({'display':'initial'});
-}, 8000));
+}, 500));
 
 $(window).load(setTimeout(function () {
 	$('#precarga').fadeOut('slow');

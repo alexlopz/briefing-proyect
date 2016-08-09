@@ -1,3 +1,38 @@
+@font-face {
+    font-family: 'aperculight';
+    src: url('fonts/apercu-light-webfont.woff2') format('woff2'),
+         url('fonts/apercu-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'apercumedium';
+    src: url('fonts/apercu-medium-webfont.woff2') format('woff2'),
+         url('fonts/apercu-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h3{
+	font-family: 'apercumedium' !important;
+	font-size: 18px !important;
+	font-weight: normal !important;
+	font-style: normal !important;
+	margin-bottom: 0px !important;
+}
+h4{
+	font-family: 'aperculight' !important;
+	font-size: 16px !important;
+	font-weight: normal !important;
+	font-style: normal !important;
+	margin-top: 0px !important
+}
 html, body {
 	width:100%;
 	height:100%;
@@ -58,7 +93,8 @@ footer a{
   height: 50px;
 }
 .botones{
-  margin: 0px 5px;
+	max-width: 50px;
+ margin: 0px 0px;
   -webkit-transition:all .2s linear;
  transition:all .2s linear;
 }
@@ -66,6 +102,16 @@ footer a{
   -ms-transform:scale(1.3,1.3);
   -webkit-transform:scale(1.3,1.3);
   transform:scale(1.3,1.3);
+}
+
+.margen{
+	padding-right: 15px !important;
+}
+.margen-arriba{
+	padding-top: 15px !important;
+}
+.margen-abajo{
+	padding-bottom: 15px !important;
 }
 .logos{
   margin: 10px auto;
@@ -151,8 +197,8 @@ right: 20px;
 }
 
 .hovereffect .foto {
- -webkit-filter: brightness(60%);
- filter: brightness(60%);
+-webkit-filter: brightness(30%);
+ filter: brightness(30%);
   display: block;
   position: relative;
   max-width: none;
@@ -242,4 +288,11 @@ right: 20px;
 
 .overlay{
   text-align: center !important;
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 0px;
+    padding-left: 0px;
 }
