@@ -197,7 +197,7 @@ right: 20px;
 }
 
 .hovereffect .foto {
--webkit-filter: brightness(30%);
+-webkit-filter: brightness(50%);
  filter: brightness(30%);
   display: block;
   position: relative;

@@ -166,6 +166,6 @@ $('#variadito-gallery').on('click', function() {
 
 
 // videos
-$('#video-galeria, #fruzi, #damy-video, #arce-video, #chus-video, #variadito-video').lightGallery({
+$('#video-galeria, #fruzi, #damy-video, #arce-video, #chus-video, #variadito-video, #francis-video, #leavy-video, #cris-video, #somos-video, #flores-video, #antonio-video, #bendicion-video, #pansa-video, #tones-video, #rukill2-video, #vivero-video, #tex-video, #ana-video').lightGallery({
   loadYoutubeThumbnail: false,
 });
