@@ -148,7 +148,8 @@ $('#variadito-gallery').on('click', function() {
 
 			$(this).lightGallery({
 					dynamic: true,
-					dynamicEl: [{
+					dynamicEl: [
+						{
 							"src": '/img/galerias/variadito/1.jpg',
 							'thumb': '/img/galerias/variadito/miniaturas/1.jpg'
 					}, {
@@ -159,6 +160,7 @@ $('#variadito-gallery').on('click', function() {
 							'src': '/img/galerias/variadito/3.jpg',
 							'thumb': '/img/galerias/variadito/miniaturas/3.jpg'
 					}
+
 				]
 			})
 
@@ -166,6 +168,6 @@ $('#variadito-gallery').on('click', function() {
 
 
 // videos
-$('#video-galeria, #fruzi, #damy-video, #arce-video, #chus-video, #variadito-video, #francis-video, #leavy-video, #cris-video, #somos-video, #flores-video, #antonio-video, #bendicion-video, #pansa-video, #tones-video, #rukill2-video, #vivero-video, #tex-video, #ana-video').lightGallery({
+$('#video-principal, #video-galeria, #fruzi, #damy-video, #arce-video, #chus-video, #variadito-video, #francis-video, #leavy-video, #cris-video, #somos-video, #flores-video, #antonio-video, #bendicion-video, #pansa-video, #tones-video, #rukill2-video, #vivero-video, #tex-video, #ana-video').lightGallery({
   loadYoutubeThumbnail: false,
 });
