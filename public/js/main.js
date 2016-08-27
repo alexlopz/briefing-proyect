@@ -3,8 +3,7 @@ $(window).load(setTimeout(function () {
 	$('#preloader').fadeOut('slow');
 	$('#loading').css({'overflow':'visible'});
   $('#contenedor').css({'display':'initial'});
-}, 500));
-
+}, 8000));
 
 
 $(window).load(setTimeout(function () {
@@ -12,6 +11,7 @@ $(window).load(setTimeout(function () {
 	$('#papa').css({'overflow':'visible'});
   $('#content').css({'display':'initial'});
 }, 1000));
+
 
 
 

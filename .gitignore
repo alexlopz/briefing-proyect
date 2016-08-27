@@ -2,5 +2,5 @@ node_modules
 public/img/galerias/**/*.jpg
 public/img/principal/*.jpg
 public/css/img/info/*.jpg
-
+public/img/principal/**/*.jpg
 
