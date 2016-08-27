@@ -5,6 +5,8 @@ $(window).load(setTimeout(function () {
   $('#contenedor').css({'display':'initial'});
 }, 500));
 
+
+
 $(window).load(setTimeout(function () {
 	$('#precarga').fadeOut('slow');
 	$('#papa').css({'overflow':'visible'});
