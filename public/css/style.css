@@ -115,6 +115,9 @@ footer a{
 .botones-info a{
     text-decoration: none;
 }
+.enunciado{
+  display: none;
+}
 .margen{
 	padding-right: 15px !important;
 }
@@ -461,6 +464,12 @@ vertical-align: middle;
 /**/
 
 @media only screen and (max-width: 800px) {
+  .no-movil{
+    display: none !important;
+  }
+  .arrow-a{
+    display: none !important;
+  }
 
   .escuela-info-a, .project-info-a, .quienes-info-a, .donacion-info-a, .creditos-info-a{
     display: none;
@@ -469,6 +478,18 @@ vertical-align: middle;
     background-size:100% auto;
     background-size: cover;
 
+
+  }
+  .enunciado{
+    color: white;
+    font-size: 3em;
+    font-family: 'aperculight';
+    display: initial;
+    background-color: #5353f9;
+    padding: 15% 5%;
+    position: fixed;
+    text-align: center;
+    width: 100%;
 
   }
   .info-section-cajon{
@@ -504,5 +525,32 @@ vertical-align: middle;
   footer li {
     margin: 0px 0px;
 }
+
+}
+
+@media only screen and (max-width: 991px){
+  body{
+    background: #5353f9;
+  }
+.no-movil{
+    display: none !important;
+  }
+  .arrow-a{
+    display: none !important;
+  }
+  .enunciado{
+    color: white;
+    font-size: 3em;
+    font-family: 'aperculight';
+    display: initial;
+    background-color: #5353f9;
+    padding: 25% 5%;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+
+
+  }
+
 
 }
