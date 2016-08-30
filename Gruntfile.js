@@ -16,30 +16,15 @@ module.exports = function (grunt) {
           livereload: true
         }
       }
-    },
-    imagemin: {
-
-    main: {
-
-      files: [{
-        expand: true,
-        cwd: '/img/logos',
-        src: ['**/*.{png,jpg,gif,.svg}'],
-        dest: '/img/comp'
-      }]
-
-      }
-
-    }//imagemin
+    }
 
 
   });
 
   grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.loadNpmTasks('grunt-contrib-imagemin');
 
 
-  grunt.registerTask('default', ['connect', 'watch','imagemin']);
+  grunt.registerTask('default', ['connect', 'watch']);
 
 };
