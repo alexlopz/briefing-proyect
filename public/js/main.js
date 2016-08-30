@@ -12,13 +12,9 @@ $(window).load(setTimeout(function () {
   $('#content').css({'display':'initial'});
 }, 1000));
 
+$('section').horizon();
 
 
-
-   $('section').horizon();
-
-   // If you do not want to include another plugin, TouchSwipe, you can set it to false in the default options by passing in the option as false.
-   //$('section').horizon({swipe: false});
 
 // fotos galerias
 
@@ -60,25 +56,25 @@ $('#damy-gallery').on('click', function() {
 			$(this).lightGallery({
 					dynamic: true,
 					dynamicEl: [{
-							"src": '/img/galerias/damy/Screenshot_4.jpg',
-							'thumb': '/img/galerias/damy/miniaturas/Screenshot_4.jpg'
+							"src": '/img/galerias/damy/screenshot_4.jpg',
+							'thumb': '/img/galerias/damy/miniaturas/screenshot_4.jpg'
 					}, {
-							'src': '/img/galerias/damy/Screenshot_5.jpg',
-							'thumb': '/img/galerias/damy/miniaturas/Screenshot_5.jpg'
+							'src': '/img/galerias/damy/screenshot_5.jpg',
+							'thumb': '/img/galerias/damy/miniaturas/screenshot_5.jpg'
 
 					}, {
-							'src': '/img/galerias/damy/Screenshot_11.jpg',
-							'thumb': '/img/galerias/damy/miniaturas/Screenshot_11.jpg'
+							'src': '/img/galerias/damy/screenshot_11.jpg',
+							'thumb': '/img/galerias/damy/miniaturas/screenshot_11.jpg'
 					}, {
-							'src': '/img/galerias/damy/Screenshot_12.jpg',
-							'thumb': '/img/galerias/damy/miniaturas/Screenshot_12.jpg'
+							'src': '/img/galerias/damy/screenshot_12.jpg',
+							'thumb': '/img/galerias/damy/miniaturas/screenshot_12.jpg'
 
 					}, {
-							'src': '/img/galerias/damy/IMG_6019.jpg',
-							'thumb': '/img/galerias/damy/miniaturas/IMG_6019.jpg'
+							'src': '/img/galerias/damy/img_6019.jpg',
+							'thumb': '/img/galerias/damy/miniaturas/img_6019.jpg'
 					}, {
-							'src': '/img/galerias/damy/IMG_6029.jpg',
-							'thumb': '/img/galerias/damy/miniaturas/IMG_6029.jpg'
+							'src': '/img/galerias/damy/img_6029.jpg',
+							'thumb': '/img/galerias/damy/miniaturas/img_6029.jpg'
 					}
 
 				]
