@@ -459,11 +459,7 @@ $('#mariela-gallery').on('click', function() {
 						},	{
 						 'src': '/img/galerias/mariela/11.jpg',
 							'thumb': '/img/galerias/mariela/miniaturas/11.jpg'
-						 },
-						 {
-						 'src': '/img/galerias/mariela/12.jpg',
-							'thumb': '/img/galerias/mariela/miniaturas/12.jpg'
-						 },
+						 }
 
 				]
 			})
